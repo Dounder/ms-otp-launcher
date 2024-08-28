@@ -1,0 +1,11 @@
+services:
+  gateway:
+    build:
+      context: ./gateway
+      dockerfile: dockerfile.prod
+    image: drglasdou/gateway
+  auth:
+    build:
+      context: ./auth
+      dockerfile: dockerfile.prod
+    image: drglasdou/auth
