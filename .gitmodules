@@ -1,0 +1,12 @@
+[submodule "email"]
+	path = email
+	url = git@github.com:Dounder/ms-otp-email.git
+[submodule "auth"]
+	path = auth
+	url = git@github.com:Dounder/ms-otp-auth.git
+[submodule "gateway"]
+	path = gateway
+	url = git@github.com:Dounder/ms-otp-gateway.git
+[submodule "otp"]
+	path = otp
+	url = git@github.com:Dounder/ms-otp.git
